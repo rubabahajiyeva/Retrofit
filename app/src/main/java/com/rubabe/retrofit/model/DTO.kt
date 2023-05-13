@@ -1,4 +1,4 @@
-package com.rubabe.retrofit
+package com.rubabe.retrofit.model
 
 data class DTO(
     val name: String,

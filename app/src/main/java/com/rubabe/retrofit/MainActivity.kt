@@ -1,14 +1,11 @@
 package com.rubabe.retrofit
 
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.ListView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.RecyclerView.Recycler
-import com.rubabe.retrofit.model.Results
+import com.rubabe.retrofit.model.DTO
 import com.rubabe.retrofit.network.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
